@@ -6,7 +6,7 @@
 
 .container {
   display: flex;
-  /* Otherwise the clickable area for the logo is to wide */
+  /* fit-content not compatible with firefox? */
   width: fit-content;
   cursor: pointer;
 }
